@@ -1,0 +1,3451 @@
+{
+	"id": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5",
+	"name": "UserRole",
+	"description": "",
+	"status": "DONE",
+	"errors": "-",
+	"active": true,
+	"tenantName": "DACO STG2 E2E  (9806) (US-API-Sandbox-Staging)",
+	"entityName": null,
+	"environment": "US-API-Sandbox-Staging",
+	"createdBy": "Alex Smith",
+	"createdOn": "2024-01-02T18:07:34.950Z",
+	"type": "Others",
+	"lessThanMaxPC": true,
+	"content": {
+		"settings": [
+
+		],
+		"taxation": [
+
+		],
+		"billingDocuments": [
+
+		],
+		"userRoles": [
+			{
+				"segregationKeys": [
+					"ZNewRole",
+					"Platform",
+					"Finance",
+					"Billing",
+					"Commerce",
+					"Insight",
+					"Payments",
+					"Reporting",
+					"Global"
+				],
+				"originalPayload": null,
+				"response": [
+					{
+						"id": "5c7fcb83-a529-4701-a507-132d62944832",
+						"key": "TestingAdmin",
+						"segregationKey": "Finance",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "060132bb-fb88-44d3-bce7-a9555d04c228",
+							"name": "TestingAdmin",
+							"description": "Testing Non Custom create/update userRole",
+							"category": "ZFinance",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "17c2c943-bb20-4e72-a87d-1f7369280e83",
+						"key": "1xxx",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "0690d0ca-7285-462a-ad51-f6d7678dba21",
+							"name": "1xxx",
+							"description": "1xxxxx",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "842480ac-ab01-4712-aa00-b6de5d9b1ed4",
+									"name": "AuditTrailAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "ae755cf6-743d-4828-ac55-887e3c3c5a8a",
+						"key": "API & UI User",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "0c0864e0-84bf-46b5-b21e-985168d0a37b",
+							"name": "API & UI User",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "347647a8-ad0f-4612-a1d4-42cc20854092",
+									"name": "DataQueryUI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "f81d9030-64cc-405a-ae83-a4b26985e15b",
+									"name": "TenantRegistryUIAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "5202c673-b1c6-478a-bfaa-6bb69e50ad63",
+									"name": "CustomObjectsReadAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "4f41d439-60c5-4269-817b-df85646d0c4a",
+									"name": "CentralSandboxRefresh",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "145812ee-62f3-4622-91d4-40bf6e104a99",
+						"key": "Test Role 4",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "15f8444a-0e4c-4177-b001-0f10e848c141",
+							"name": "Test Role 4",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c3acf8f3-ed60-412f-ae73-d79710f9948a",
+									"name": "WorkflowGlobalConstantsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2b5c3778-2a4e-4672-a904-3010400fa444",
+									"name": "createTestTenant",
+									"scope": "ZPlatform",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "424c24a1-96e9-420c-b865-9dd2feac4c88",
+						"key": "temp",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "1f442684-2369-4acd-9bbe-13372d17f33b",
+							"name": "temp",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c3acf8f3-ed60-412f-ae73-d79710f9948a",
+									"name": "WorkflowGlobalConstantsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b8cdc2ac-bc25-4dc9-be58-28633188b843",
+									"name": "ui",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b812f099-e422-45ad-a4f5-543760802a24",
+									"name": "apiWrite",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "affc1cdd-ce28-4bb1-898e-efc43db49480",
+						"key": "Testing create user role with attributes",
+						"segregationKey": "Finance",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "21890d88-0fbe-460f-b2c2-7465fb1e2b03",
+							"name": "Testing create user role with attributes",
+							"description": "Creating user role with attributes",
+							"category": "ZFinance",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "549c117d-1e4b-4e8c-b224-5bb304020a48",
+						"key": "Basic Z-Reporting Profile (Everyone not Finance)",
+						"segregationKey": "Reporting",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "27685fd4-e0d1-4fa6-8495-2120b21e7ed9",
+							"name": "Basic Z-Reporting Profile (Everyone not Finance)",
+							"description": "",
+							"category": "ZReporting",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "9ad0de74-a583-47c3-820a-c2f8b874e848",
+									"name": "enableDataSourceExports",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								},
+								{
+									"id": "82717444-1a15-4347-a738-24e1fd1f93fb",
+									"name": "viewZReports",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "8bcdec97-1b69-480a-ab18-efa4e4903dc3",
+						"key": "Z-Connect API User-attribute-test",
+						"segregationKey": "Finance",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c895-6c19-4b3c-016c-20c4de6d0400",
+							"name": "Z-Connect API User-attribute-test",
+							"description": "Creating user role with attributes",
+							"category": "ZFinance",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "89a59728-c9ea-44c7-bff8-d5b46d4290b1",
+						"key": "Z-Connect API User - Testing123",
+						"segregationKey": "Finance",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c895-6c19-4b3c-016c-20c4de6d04f7",
+							"name": "Z-Connect API User - Testing123",
+							"description": "Z-Connect API User - Testing123",
+							"category": "ZFinance",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "3f372448-223a-4bd6-b715-894b837d4e57",
+									"name": "ReportingAccess",
+									"scope": "Default",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "a40f4951-39e6-4280-aa54-d4b72760da9e",
+									"name": "AccountingPeriodDelete",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "d43f882c-7343-41bf-8f35-2f0dc0a1a082",
+									"name": "AccountingPeriodClose",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "9cbc7751-9351-46b8-bf85-117cd41a631b",
+									"name": "RevRecRuleChangedOnPRPC",
+									"scope": "ProductCatalog",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "ae7beea1-5122-4014-a0e1-d8fd0a634f59",
+									"name": "AccountingPeriodCreate",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "2af54a12-95fc-4d60-8b88-e4ab46436636",
+									"name": "AccountingPeriodReopen",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "1ce2acad-f124-4983-ab33-e991d0483d1f",
+									"name": "FinanceView",
+									"scope": "Finance",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "8c9cd61b-07c1-4c89-9118-9897c5c1b40c",
+									"name": "RunTrialBalance",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "ee570e0f-abc1-4ded-acc8-64d2bfbd7098",
+						"key": "Administrator",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4c51e86",
+							"name": "Administrator",
+							"description": "Access Zuora Platform, administer security policies, manage users, and manage user roles",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "5b45a58a-3f11-4929-86db-fe4a8d16b5a6",
+									"name": "EnableDeploymentManagerUI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "3564246c-0ad0-42b9-9b3e-0ccf42838284",
+									"name": "EnableDataLoader",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "34530644-9ce4-481e-b12f-a9e8c5b58843",
+									"name": "TelemetryUIAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "4f41d439-60c5-4269-817b-df85646d0c4a",
+									"name": "CentralSandboxRefresh",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b812f099-e422-45ad-a4f5-543760802a24",
+									"name": "apiWrite",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "dd6d3a89-22fa-412e-87b2-056df2a50868",
+									"name": "userManagement",
+									"scope": "Administrative",
+									"activationLevel": "User"
+								},
+								{
+									"id": "15094af2-55d2-4c35-a22f-2649ad2edd5e",
+									"name": "workflow",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c3acf8f3-ed60-412f-ae73-d79710f9948a",
+									"name": "WorkflowGlobalConstantsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "4abcd6c9-1345-4881-bda1-15a551db9b02",
+									"name": "manageUserRoles",
+									"scope": "Administrative",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b8cdc2ac-bc25-4dc9-be58-28633188b843",
+									"name": "ui",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "ce2d1ac3-c6b8-4981-9f96-c0dc2257dc7e",
+									"name": "EnableDeploymentManagerUIAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "92e4178f-2f18-40ac-be55-6017907648a0",
+									"name": "CustomObjectsDeleteAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "347647a8-ad0f-4612-a1d4-42cc20854092",
+									"name": "DataQueryUI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "8729f9e6-2d80-4882-a591-e92154adc2ba",
+									"name": "createLiveTenant",
+									"scope": "ZPlatform",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "37e7ccb3-793c-4c58-82ed-48ce3b5db10c",
+									"name": "securityPolicyManagement",
+									"scope": "Administrative",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a59ddab2-c496-480b-974d-697b95959cda",
+									"name": "ExtensionPlatformAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "EntityAndUser"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "cbd621eb-3611-4e1a-9299-dc40c6245dcb",
+						"key": "Entire Staff",
+						"segregationKey": "Global",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4ca1e87",
+							"name": "Entire Staff",
+							"category": "Global",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "100a6b85-667e-43b8-a091-27cb4dfa04d4",
+									"name": "allowNewSubscriptions",
+									"scope": "TenantSetting",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "a2f1fd3d-8aeb-48e4-83b4-42702bb5b983",
+									"name": "enableAdvancedBillingAndPaymentOperationsFeature",
+									"scope": "TenantSetting",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "f3164ea7-b61c-4f05-b690-e6e63f04869b",
+									"name": "enableAccountingCodesFeature",
+									"scope": "TenantSetting",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "5c0e71f7-998f-4cd3-83cd-8f5684e1d3d3",
+									"name": "allowMoreThanTenNewSubscriptions",
+									"scope": "TenantSetting",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "cc6a631d-8907-418f-b0bd-76c991541b9b",
+									"name": "enableMultipleSubscriptionsPerCustomerFeature",
+									"scope": "TenantSetting",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "92e1c86d-8939-43e8-b7cf-92966dea49ab",
+									"name": "enableTriggerConditions",
+									"scope": "TenantSetting",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "428869d7-6d00-402e-9e55-ea1fba939817",
+									"name": "enableTermedSubscriptions",
+									"scope": "TenantSetting",
+									"activationLevel": "EntityAndUser"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "279e3690-b6a6-4de6-89f7-306a13c8ed8b",
+						"key": "Standard User",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4ce1e88",
+							"name": "Standard User",
+							"description": "Standard User to access the Zuora Platform",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "92e4178f-2f18-40ac-be55-6017907648a0",
+									"name": "CustomObjectsDeleteAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "347647a8-ad0f-4612-a1d4-42cc20854092",
+									"name": "DataQueryUI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c3acf8f3-ed60-412f-ae73-d79710f9948a",
+									"name": "WorkflowGlobalConstantsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b812f099-e422-45ad-a4f5-543760802a24",
+									"name": "apiWrite",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b8cdc2ac-bc25-4dc9-be58-28633188b843",
+									"name": "ui",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "5202c673-b1c6-478a-bfaa-6bb69e50ad63",
+									"name": "CustomObjectsReadAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a220464a-a366-4be8-83fa-f258b19da5f4",
+									"name": "CustomObjectsEditAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "81589ee1-8f82-4c61-97f7-0df3e60f9930",
+						"key": "Zuora Billing Standard User",
+						"segregationKey": "Billing",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4dc1e89",
+							"name": "Zuora Billing Standard User",
+							"description": "Standard User for the Zuora Billing Product",
+							"category": "ZBilling",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "f88d4060-5d8f-4c7f-a84f-ca7a492f94bc",
+									"name": "createDebitMemo",
+									"scope": "DebitMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c8e6f4ac-21b9-4f0d-a771-b4353e4e5dd9",
+									"name": "AccountDelete",
+									"scope": "Accounts",
+									"activationLevel": "User"
+								},
+								{
+									"id": "e9a78173-04c4-4cf1-94a4-3a5381f31f08",
+									"name": "billingSettingsManagement",
+									"scope": "ZBillingAdmin",
+									"activationLevel": "User"
+								},
+								{
+									"id": "79b3a191-d7cb-4ed0-8f1d-da3aa3e8c989",
+									"name": "RegeneratePDF",
+									"scope": "DocumentFiles",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b741896d-6ad7-4c42-b648-2d069953ce1e",
+									"name": "EmailInvoice",
+									"scope": "Invoices",
+									"activationLevel": "User"
+								},
+								{
+									"id": "9cbc7751-9351-46b8-bf85-117cd41a631b",
+									"name": "RevRecRuleChangedOnPRPC",
+									"scope": "ProductCatalog",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "ae858ad0-1cbb-42b3-9b31-da721af335b6",
+									"name": "modifyDebitMemo",
+									"scope": "DebitMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "d91679ae-e424-4e2c-8cfd-ca161467d035",
+									"name": "enableDeleteSubscriptionAmendment",
+									"scope": "Subscription",
+									"activationLevel": "User"
+								},
+								{
+									"id": "8db9798c-3db3-4f6f-bb8c-e05beabe7d6e",
+									"name": "overrideCreditMemoItemName",
+									"scope": "CreditMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a15a6802-e703-4c60-b1d5-0dea479b60b2",
+									"name": "createCreditMemo",
+									"scope": "CreditMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "5652d0f5-41a1-4172-bcaa-03be9c652f47",
+									"name": "ModifyAccount",
+									"scope": "Accounts",
+									"activationLevel": "User"
+								},
+								{
+									"id": "ae5744be-34cb-4f5f-a643-3a4f255ce4b0",
+									"name": "accountCreate",
+									"scope": "Accounts",
+									"activationLevel": "User"
+								},
+								{
+									"id": "79e1bea2-a9c0-4207-83fd-f2da07909457",
+									"name": "deleteDebitMemo",
+									"scope": "DebitMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "73659bc3-357a-427a-87bb-dd39ccafbfa6",
+									"name": "manageAttachment",
+									"scope": "Attachments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "f66c69d1-4573-4fd6-b4e0-f8f07710bfa6",
+									"name": "cancelCreditMemo",
+									"scope": "CreditMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "214b23b7-6a40-4b0f-969b-c6fcb36046d9",
+									"name": "deleteUsageRecords",
+									"scope": "UsageRecords",
+									"activationLevel": "User"
+								},
+								{
+									"id": "89ce3137-0e3f-4545-ac9d-ad8f9e276846",
+									"name": "reverseInvoice",
+									"scope": "Invoices",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c0970f5b-7418-48d3-a4be-d0cd67bedd21",
+									"name": "updateUsageRecords",
+									"scope": "UsageRecords",
+									"activationLevel": "User"
+								},
+								{
+									"id": "8d875f10-49a6-458f-ba78-58f691f368d9",
+									"name": "cancelledInvoiceItemAdjustmentDelete",
+									"scope": "InvoiceItemAdjustments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cfa151f3-d97c-4b56-a5b9-98e93cc023c2",
+									"name": "invoiceItemAdjustmentCancel",
+									"scope": "InvoiceItemAdjustments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "de07bbb7-89b2-445a-9714-945cf00570d0",
+									"name": "invoiceItemAdjustmentCreate",
+									"scope": "InvoiceItemAdjustments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c3bd2b84-c676-48eb-8c1a-b72b76558552",
+									"name": "deletePaymentMethods",
+									"scope": "Accounts",
+									"activationLevel": "User"
+								},
+								{
+									"id": "915affab-37ab-4183-aa44-a9cec5125078",
+									"name": "adjustmentDelete",
+									"scope": "Adjustments",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "4b10d352-3d32-4e2d-92fe-20365393c208",
+									"name": "cancelDebitMemo",
+									"scope": "DebitMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "11dcdee2-d1db-4638-8c51-653de5526673",
+									"name": "overrideDebitMemoItemName",
+									"scope": "DebitMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "e230fe1e-cd88-4a0e-bdc5-44c5d39625a2",
+									"name": "adjustmentCreate",
+									"scope": "Adjustments",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "fe8c8fda-b9eb-44a0-b3b5-e441079643d8",
+									"name": "modifyCreditMemo",
+									"scope": "CreditMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "5d1a993b-817d-4043-9e1d-0d1f924c7cfb",
+									"name": "adjustmentCancel",
+									"scope": "Adjustments",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "b7b34801-6ecf-43a3-8c37-1a26997bc768",
+									"name": "deleteCreditMemo",
+									"scope": "CreditMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "393c2911-e985-4756-8901-59c9a5371def",
+									"name": "CancelAccount",
+									"scope": "Accounts",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b0cf121c-18bb-4f40-8e84-e297b4a136ca",
+									"name": "ModifyInvoice",
+									"scope": "Invoices",
+									"activationLevel": "User"
+								},
+								{
+									"id": "4ae3921c-cc54-4855-90c4-1146d5b8b561",
+									"name": "manageProductCatalog",
+									"scope": "ProductCatalog",
+									"activationLevel": "User"
+								},
+								{
+									"id": "46212687-2dda-4c31-928b-677d03e8d66a",
+									"name": "enablePostForDebitMemo",
+									"scope": "DebitMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "de9705d2-8274-11eb-8dcd-0242ac130003",
+									"name": "CreateStandaloneInvoice",
+									"scope": "Invoices",
+									"activationLevel": "User"
+								},
+								{
+									"id": "13cf75dd-f9f7-44b5-a936-6ff75616de09",
+									"name": "DeleteInvoice",
+									"scope": "Invoices",
+									"activationLevel": "User"
+								},
+								{
+									"id": "88dee3e1-e78a-4172-a3f0-e247d0db206c",
+									"name": "ChangeReasonCodeForIIA",
+									"scope": "InvoiceItemAdjustments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cb5871b3-0333-4582-a8e9-a7912a9484da",
+									"name": "paymentMethodCreate",
+									"scope": "Accounts",
+									"activationLevel": "User"
+								},
+								{
+									"id": "8c3c85dd-90a4-417c-9499-fb2520319b29",
+									"name": "invPost",
+									"scope": "Invoices",
+									"activationLevel": "User"
+								},
+								{
+									"id": "fe1786a0-4754-4344-8393-2fcf9b1047e6",
+									"name": "applyCreditMemo",
+									"scope": "CreditMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "9f75aabd-2de4-4b44-985b-59731aae057a",
+									"name": "CancelInvoice",
+									"scope": "Invoices",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a7bec3e9-1bef-4140-812f-60325c3bc626",
+									"name": "GenerateMSWordDocument",
+									"scope": "DocumentFiles",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a31760f9-a016-41bf-96a7-63169be47afd",
+									"name": "unapplyCreditMemo",
+									"scope": "CreditMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2bdf6f2e-4140-4084-9640-0e779739c86f",
+									"name": "ChangeReasonCodeForIA",
+									"scope": "Adjustments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "d6e229be-4e45-45ad-9aaa-92cdd8879aeb",
+									"name": "enablePostForCreditMemo",
+									"scope": "CreditMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "69ea9347-48f4-4493-bf03-ee36d2d47814",
+									"name": "invUnpost",
+									"scope": "Invoices",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da0946f7-6a54-40e1-b5c4-bbd2aa25bc5d",
+									"name": "changePaymentMethods",
+									"scope": "Accounts",
+									"activationLevel": "User"
+								},
+								{
+									"id": "9a63b967-63f3-4054-8f8b-9e34602738e4",
+									"name": "contactCreate",
+									"scope": "Accounts",
+									"activationLevel": "User"
+								},
+								{
+									"id": "326332d1-1176-47e9-b3e3-02b426cb1621",
+									"name": "refundCreditMemo",
+									"scope": "CreditMemos",
+									"activationLevel": "User"
+								},
+								{
+									"id": "f0bc639d-86b5-4dee-bc53-53b7f4474307",
+									"name": "invEdit",
+									"scope": "Invoices",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "276afe20-3dc9-4df8-b977-a05b9ca919f5",
+									"name": "subscriptionManagement",
+									"scope": "Subscription",
+									"activationLevel": "User"
+								},
+								{
+									"id": "4012dec7-bfd9-4be3-a0d3-524c1fdd9b30",
+									"name": "createUsageRecords",
+									"scope": "UsageRecords",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "7c4fc972-8e98-43af-8497-b1239b28da30",
+						"key": "Zuora Commerce Admin User",
+						"segregationKey": "Commerce",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4df1e8a",
+							"name": "Zuora Commerce Admin User",
+							"description": "Administer all functionality for the Zuora Commerce Product",
+							"category": "ZCommerce",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "aa5c444c-4179-4c54-8e7f-400276c0eaac",
+									"name": "allowSfdcCleanUp",
+									"scope": "ZCommerce360Sync",
+									"activationLevel": "User"
+								},
+								{
+									"id": "7ba94490-796c-4aae-88b0-98b939e26dcb",
+									"name": "manage360Sync",
+									"scope": "ZCommerce360Sync",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "4457bd93-ca47-45dd-8a28-b42bbbf32cc5",
+						"key": "Zuora Commerce Standard User",
+						"segregationKey": "Commerce",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4e21e8b",
+							"name": "Zuora Commerce Standard User",
+							"description": "Standard User for the Zuora Commerce Product",
+							"category": "ZCommerce",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "7ba94490-796c-4aae-88b0-98b939e26dcb",
+									"name": "manage360Sync",
+									"scope": "ZCommerce360Sync",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "59e3f3fb-79bc-4054-b1bb-b58919b66b40",
+						"key": "Zuora Finance Administrator",
+						"segregationKey": "Finance",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4e51e8c",
+							"name": "Zuora Finance Administrator",
+							"description": "Administer all functionality for the Zuora Finance Product",
+							"category": "ZFinance",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "d0aef0ac-12f1-4623-a64a-c51152c936a0",
+									"name": "editJournalEntry",
+									"scope": "ZFinanceJournalEntry",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "3e0d99a8-939c-46c5-9438-62f9d1fd173d",
+									"name": "createCOAAccountingCode",
+									"scope": "ZFinanceCOA",
+									"activationLevel": "User"
+								},
+								{
+									"id": "8c9cd61b-07c1-4c89-9118-9897c5c1b40c",
+									"name": "RunTrialBalance",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "2af54a12-95fc-4d60-8b88-e4ab46436636",
+									"name": "AccountingPeriodReopen",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "323d1fdc-07e6-4527-b9d3-e495056f2afd",
+									"name": "RevenueRecognitionRuleCreate",
+									"scope": "RevenueRecognitionRule",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "eae0d03b-89bd-4ce9-b18b-8607febe23a7",
+									"name": "deleteJournalEntry",
+									"scope": "ZFinanceJournalEntry",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "a78606cd-a7cf-491c-b198-76e26776cec9",
+									"name": "createSegment",
+									"scope": "ZFinanceSegment",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "02b33a91-2244-4f64-a4fa-eec289e44d11",
+									"name": "transferJournalEntryToAccounting",
+									"scope": "ZFinanceJournalEntry",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "99412c9c-5219-40a6-a861-838c0e4a83b9",
+									"name": "RevenueRecognitionRuleManage",
+									"scope": "RevenueRecognitionRule",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "d5c82862-5019-4c21-ad32-57ca481c18da",
+									"name": "deleteAccountingRun",
+									"scope": "ZFinanceAccountingRun",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "b6f52ec9-93d4-45d8-8a15-702884d067ab",
+									"name": "manageCOAAccountingCode",
+									"scope": "ZFinanceCOA",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cc518228-6cd2-4a8e-bf10-70169159c9bf",
+									"name": "DeleteExternalRevenueSchedule",
+									"scope": "RevenueSchedule",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "71caf61c-90b3-40de-8c6b-cc08c5ad4687",
+									"name": "cancelJournalEntry",
+									"scope": "ZFinanceJournalEntry",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "5af590fe-fce2-41e3-9164-dc114dd902bf",
+									"name": "deleteCOAAccountingCode",
+									"scope": "ZFinanceCOA",
+									"activationLevel": "User"
+								},
+								{
+									"id": "d835f5f3-d7ff-434e-8921-b1505287daaa",
+									"name": "createSegmentRule",
+									"scope": "ZFinanceSegmentRule",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "d43f882c-7343-41bf-8f35-2f0dc0a1a082",
+									"name": "AccountingPeriodClose",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "ea6efa7d-365c-440a-bd79-23bc46690f76",
+									"name": "ChangeRevenueAllocation",
+									"scope": "RevenueSchedule",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "5ac9e6c6-a8db-4f4c-b028-4a6ccb90f400",
+									"name": "CreateRSOfUnlimitRevRec",
+									"scope": "RevenueSchedule",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "a361abf5-e64a-4469-899d-0083b9eb1c0f",
+									"name": "createAccountingRun",
+									"scope": "ZFinanceAccountingRun",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "3f372448-223a-4bd6-b715-894b837d4e57",
+									"name": "ReportingAccess",
+									"scope": "Default",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "41048780-1225-4834-9c6d-ea32169c30ec",
+									"name": "manageSegment",
+									"scope": "ZFinanceSegment",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "1ce2acad-f124-4983-ab33-e991d0483d1f",
+									"name": "FinanceView",
+									"scope": "Finance",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "a3f465c3-5b49-4531-89b2-d028890767a4",
+									"name": "createJournalEntry",
+									"scope": "ZFinanceJournalEntry",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "ae7beea1-5122-4014-a0e1-d8fd0a634f59",
+									"name": "AccountingPeriodCreate",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "a40f4951-39e6-4280-aa54-d4b72760da9e",
+									"name": "AccountingPeriodDelete",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "35f44680-2d77-4ec5-9f7f-266444fd3193",
+									"name": "cancelAccountingRun",
+									"scope": "ZFinanceAccountingRun",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "c9625a57-5a4c-4345-b90c-44e40a565f4e",
+									"name": "financeSettingsManagement",
+									"scope": "ZFinanceAdmin",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c7743b6f-2b33-4693-96f7-f3a19675c280",
+									"name": "manageSegmentRule",
+									"scope": "ZFinanceSegmentRule",
+									"activationLevel": "EntityAndUser"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "2ed0159f-68dd-4729-9369-ee37aa03f6b4",
+						"key": "Zuora Finance Standard User",
+						"segregationKey": "Finance",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4e81e8d",
+							"name": "Zuora Finance Standard User",
+							"description": "Standard User for the Zuora Finance Product",
+							"category": "ZFinance",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "d0aef0ac-12f1-4623-a64a-c51152c936a0",
+									"name": "editJournalEntry",
+									"scope": "ZFinanceJournalEntry",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "41048780-1225-4834-9c6d-ea32169c30ec",
+									"name": "manageSegment",
+									"scope": "ZFinanceSegment",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "c9625a57-5a4c-4345-b90c-44e40a565f4e",
+									"name": "financeSettingsManagement",
+									"scope": "ZFinanceAdmin",
+									"activationLevel": "User"
+								},
+								{
+									"id": "1ce2acad-f124-4983-ab33-e991d0483d1f",
+									"name": "FinanceView",
+									"scope": "Finance",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "d5c82862-5019-4c21-ad32-57ca481c18da",
+									"name": "deleteAccountingRun",
+									"scope": "ZFinanceAccountingRun",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "eae0d03b-89bd-4ce9-b18b-8607febe23a7",
+									"name": "deleteJournalEntry",
+									"scope": "ZFinanceJournalEntry",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "ea6efa7d-365c-440a-bd79-23bc46690f76",
+									"name": "ChangeRevenueAllocation",
+									"scope": "RevenueSchedule",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "a361abf5-e64a-4469-899d-0083b9eb1c0f",
+									"name": "createAccountingRun",
+									"scope": "ZFinanceAccountingRun",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "35f44680-2d77-4ec5-9f7f-266444fd3193",
+									"name": "cancelAccountingRun",
+									"scope": "ZFinanceAccountingRun",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "cc518228-6cd2-4a8e-bf10-70169159c9bf",
+									"name": "DeleteExternalRevenueSchedule",
+									"scope": "RevenueSchedule",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "8c9cd61b-07c1-4c89-9118-9897c5c1b40c",
+									"name": "RunTrialBalance",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "3e0d99a8-939c-46c5-9438-62f9d1fd173d",
+									"name": "createCOAAccountingCode",
+									"scope": "ZFinanceCOA",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a3f465c3-5b49-4531-89b2-d028890767a4",
+									"name": "createJournalEntry",
+									"scope": "ZFinanceJournalEntry",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "71caf61c-90b3-40de-8c6b-cc08c5ad4687",
+									"name": "cancelJournalEntry",
+									"scope": "ZFinanceJournalEntry",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "b6f52ec9-93d4-45d8-8a15-702884d067ab",
+									"name": "manageCOAAccountingCode",
+									"scope": "ZFinanceCOA",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a78606cd-a7cf-491c-b198-76e26776cec9",
+									"name": "createSegment",
+									"scope": "ZFinanceSegment",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "3f372448-223a-4bd6-b715-894b837d4e57",
+									"name": "ReportingAccess",
+									"scope": "Default",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "c7743b6f-2b33-4693-96f7-f3a19675c280",
+									"name": "manageSegmentRule",
+									"scope": "ZFinanceSegmentRule",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "323d1fdc-07e6-4527-b9d3-e495056f2afd",
+									"name": "RevenueRecognitionRuleCreate",
+									"scope": "RevenueRecognitionRule",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "99412c9c-5219-40a6-a861-838c0e4a83b9",
+									"name": "RevenueRecognitionRuleManage",
+									"scope": "RevenueRecognitionRule",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "d835f5f3-d7ff-434e-8921-b1505287daaa",
+									"name": "createSegmentRule",
+									"scope": "ZFinanceSegmentRule",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "5af590fe-fce2-41e3-9164-dc114dd902bf",
+									"name": "deleteCOAAccountingCode",
+									"scope": "ZFinanceCOA",
+									"activationLevel": "User"
+								},
+								{
+									"id": "ae7beea1-5122-4014-a0e1-d8fd0a634f59",
+									"name": "AccountingPeriodCreate",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "5ac9e6c6-a8db-4f4c-b028-4a6ccb90f400",
+									"name": "CreateRSOfUnlimitRevRec",
+									"scope": "RevenueSchedule",
+									"activationLevel": "EntityAndUser"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "e9c785af-7758-4255-85fb-b4da1660f2b6",
+						"key": "Zuora Insights Administrator",
+						"segregationKey": "Insight",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4eb1e8e",
+							"name": "Zuora Insights Administrator",
+							"description": "Zuora Insights Application Permissions for Administrator",
+							"category": "ZInsight",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "5ae5334c-c5c8-412c-af2c-5e95563932fd",
+									"name": "viewZInsight",
+									"scope": "ZInsightPerm",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b7317474-828b-4fe6-b35e-fd00fb8b4438",
+									"name": "manageZInsight",
+									"scope": "ZInsightPerm",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "98d438c2-467b-4fc5-a22e-41d57ad4b409",
+						"key": "Zuora Insights No Access",
+						"segregationKey": "Insight",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4ef1e8f",
+							"name": "Zuora Insights No Access",
+							"description": "",
+							"category": "ZInsight",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "8e5f7ec1-b793-47ea-907b-0c225a241bf0",
+						"key": "Zuora Insights Standard User",
+						"segregationKey": "Insight",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4f11e90",
+							"name": "Zuora Insights Standard User",
+							"description": "Zuora Insights Application Permissions for Standard User",
+							"category": "ZInsight",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "5ae5334c-c5c8-412c-af2c-5e95563932fd",
+									"name": "viewZInsight",
+									"scope": "ZInsightPerm",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "6a1321a4-46a5-4758-94ae-bf161a81b58d",
+						"key": "Zuora Payments Standard User",
+						"segregationKey": "Payments",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4f41e91",
+							"name": "Zuora Payments Standard User",
+							"description": "Standard User for the Zuora Payments Product",
+							"category": "ZPayments",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "64feaa97-474b-4975-8318-57f07822887b",
+									"name": "ChangeReasonCodeForRefund",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "20901d09-4542-47e5-93ac-6b67408cc3b5",
+									"name": "paymentEleCreate",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "ca7b1798-a129-477a-931d-84e943ff391c",
+									"name": "paymentExtCancel",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "5e3e6e89-95dd-4972-9765-9f0b14d393d3",
+									"name": "deletePayment",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "7b8293a9-6d9d-4a63-b6fd-a0c77e388254",
+									"name": "deleteRefund",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2b464545-aed1-4f51-ac72-ef0c7d086f0c",
+									"name": "paymentEleCancel",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a98f0b4a-475b-4ac2-861b-a7521fa2d677",
+									"name": "ChangeReasonCodeForCBA",
+									"scope": "CreditBalance",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "af12ddc9-1bc4-4548-888d-5cb9acea766b",
+									"name": "refundExtIssue",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "d9a8eb7c-e670-4533-bed0-67548f1671a2",
+									"name": "paymentSettingsManagement",
+									"scope": "ZPaymentAdmin",
+									"activationLevel": "User"
+								},
+								{
+									"id": "3cff62a5-9f84-48a0-8ed9-639e6f236944",
+									"name": "refundEleCancel",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "f2ae8731-e9c4-4496-a238-3ddd744b1f94",
+									"name": "refundEleIssue",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c0bd06e2-b58a-49b1-9de1-3f0cfd7f2415",
+									"name": "transferPayment",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "7114eea3-6bbb-41ba-9023-972ee774841d",
+									"name": "paymentPMUReadUser",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "94c6f418-0d31-48d6-b902-e74ea5391083",
+									"name": "managePaymentRuns",
+									"scope": "PaymentRuns",
+									"activationLevel": "User"
+								},
+								{
+									"id": "626df87b-71b2-42bc-baea-ab88969d1962",
+									"name": "paymentExtCreate",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "9c0a1567-22e9-420e-8956-0d6a2cce0bcf",
+									"name": "unapplyPayment",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a3827bcb-3446-43f9-bdbe-90d1d8ef9812",
+									"name": "reapplyTransactions",
+									"scope": "ZPaymentAdvanced",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "8791a881-b9a8-4e0c-a9b0-482997b87b61",
+									"name": "paymentGRReadUser",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "f9ab49f3-52fe-4c32-bf58-91c53ed69e55",
+									"name": "applyPayment",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "529d0f86-b8cc-4630-9fea-e8adf2c84d35",
+									"name": "refundExtCancel",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "8465ebf9-7d0d-45ce-80d3-a2e7ce50e286",
+						"key": "Zuora Reporting Administrator",
+						"segregationKey": "Reporting",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4f71e92",
+							"name": "Zuora Reporting Administrator",
+							"description": "Zuora Reporting Application Permissions for Administrator",
+							"category": "ZReporting",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "0b989597-a2ae-4997-a0f3-e50b558519c6",
+									"name": "viewDashboard",
+									"scope": "Dashboard",
+									"activationLevel": "User"
+								},
+								{
+									"id": "ae867843-1dfc-4368-a0a1-38a0f4a2fbfb",
+									"name": "manageAllZreports",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								},
+								{
+									"id": "581595cb-61b0-4a9c-958b-0bb7d56338c5",
+									"name": "manageZReports",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								},
+								{
+									"id": "82717444-1a15-4347-a738-24e1fd1f93fb",
+									"name": "viewZReports",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								},
+								{
+									"id": "9ad0de74-a583-47c3-820a-c2f8b874e848",
+									"name": "enableDataSourceExports",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								},
+								{
+									"id": "992d88c6-278e-43c3-aa8a-62135a847b10",
+									"name": "manageInsightsDataSources",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "724bdb88-312c-4ef0-8a7a-0ebce3c81b8c",
+									"name": "manageDashboard",
+									"scope": "Dashboard",
+									"activationLevel": "User"
+								},
+								{
+									"id": "e7255029-c8d0-4d1c-ac1d-e4ba778b77ca",
+									"name": "LegacyExportsUser",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "bc98a052-23dc-4a83-abc7-27c0ba4e2d14",
+						"key": "Zuora Reporting Standard User",
+						"segregationKey": "Reporting",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-6c1a-011a-016c-20c4c4fc1e93",
+							"name": "Zuora Reporting Standard User",
+							"description": "Zuora Reporting Application Permissions for Standard User",
+							"category": "ZReporting",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": false,
+							"attributes": [
+								{
+									"id": "e7255029-c8d0-4d1c-ac1d-e4ba778b77ca",
+									"name": "LegacyExportsUser",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								},
+								{
+									"id": "82717444-1a15-4347-a738-24e1fd1f93fb",
+									"name": "viewZReports",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								},
+								{
+									"id": "581595cb-61b0-4a9c-958b-0bb7d56338c5",
+									"name": "manageZReports",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0b989597-a2ae-4997-a0f3-e50b558519c6",
+									"name": "viewDashboard",
+									"scope": "Dashboard",
+									"activationLevel": "User"
+								},
+								{
+									"id": "9ad0de74-a583-47c3-820a-c2f8b874e848",
+									"name": "enableDataSourceExports",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "e83ee61f-4272-4def-b766-9c6e897c6e39",
+						"key": "No Manage 360",
+						"segregationKey": "Commerce",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "2c92c8fb-754a-a47c-0175-52f3617b0745",
+							"name": "No Manage 360",
+							"description": "",
+							"category": "ZCommerce",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "c4f2b97c-f539-4056-9310-6f394038e350",
+						"key": "API User",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "321884ff-c088-4385-ad57-73960b3e20ce",
+							"name": "API User",
+							"description": "API User for Connection to Salesforce and NetSuite",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c3acf8f3-ed60-412f-ae73-d79710f9948a",
+									"name": "WorkflowGlobalConstantsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "5a367925-1d6d-43b1-8829-7bb39459604f",
+						"key": "test11",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "3752ad80-e663-4c8b-b49d-0466f0a87493",
+							"name": "test11",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "8729f9e6-2d80-4882-a591-e92154adc2ba",
+									"name": "createLiveTenant",
+									"scope": "ZPlatform",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "2b5c3778-2a4e-4672-a904-3010400fa444",
+									"name": "createTestTenant",
+									"scope": "ZPlatform",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "25427ade-553a-46d0-a57b-cc72c7eb1a34",
+						"key": "new-userRole- PD",
+						"segregationKey": "Payments",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "3c40368a-b8a4-41e1-a864-5860d2e0b9fb",
+							"name": "new-userRole- PD",
+							"description": "",
+							"category": "ZPayments",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "94c6f418-0d31-48d6-b902-e74ea5391083",
+									"name": "managePaymentRuns",
+									"scope": "PaymentRuns",
+									"activationLevel": "User"
+								},
+								{
+									"id": "07d798b2-24ff-4c03-bcc5-0330856b4ad0",
+									"name": "overrideTransferredToAccountingPayment",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "353e310d-d4c3-49ca-9297-c44bdca256be",
+									"name": "cancelledCBAdjustmentDelete",
+									"scope": "CreditBalance",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "529d0f86-b8cc-4630-9fea-e8adf2c84d35",
+									"name": "refundExtCancel",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "755c13ad-30e5-4cd6-83d7-84cf28b151a8",
+									"name": "overrideAccountingCodePayment",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "ed5eceb4-6c64-46e7-bc9a-ea6c6aaa60ee",
+									"name": "hideViewCanceledPaymentForUI",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "6704ed46-fe59-4ff4-9d15-ed0daffdd71c",
+						"key": "TestUserRole",
+						"segregationKey": "Billing",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "3fad08d8-025d-4361-bba4-f9be31cf35a5",
+							"name": "TestUserRole",
+							"description": "Zuora Billing ",
+							"category": "ZBilling",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "1ce2acad-f124-4983-ab33-e991d0483d1f",
+									"name": "FinanceView",
+									"scope": "Finance",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "a40f4951-39e6-4280-aa54-d4b72760da9e",
+									"name": "AccountingPeriodDelete",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "11949c7a-deab-4036-872c-5295fa16db75",
+						"key": "New Role-Payment",
+						"segregationKey": "Payments",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "4842aa36-7d50-4571-93ac-611069d02908",
+							"name": "New Role-Payment",
+							"description": "",
+							"category": "ZPayments",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "94c6f418-0d31-48d6-b902-e74ea5391083",
+									"name": "managePaymentRuns",
+									"scope": "PaymentRuns",
+									"activationLevel": "User"
+								},
+								{
+									"id": "626df87b-71b2-42bc-baea-ab88969d1962",
+									"name": "paymentExtCreate",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "7114eea3-6bbb-41ba-9023-972ee774841d",
+									"name": "paymentPMUReadUser",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "ca7b1798-a129-477a-931d-84e943ff391c",
+									"name": "paymentExtCancel",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "d9a8eb7c-e670-4533-bed0-67548f1671a2",
+									"name": "paymentSettingsManagement",
+									"scope": "ZPaymentAdmin",
+									"activationLevel": "User"
+								},
+								{
+									"id": "353e310d-d4c3-49ca-9297-c44bdca256be",
+									"name": "cancelledCBAdjustmentDelete",
+									"scope": "CreditBalance",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "64feaa97-474b-4975-8318-57f07822887b",
+									"name": "ChangeReasonCodeForRefund",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "8791a881-b9a8-4e0c-a9b0-482997b87b61",
+									"name": "paymentGRReadUser",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "46cde936-7b11-4fe9-862c-90e88eb68fae",
+									"name": "overrideAccountingCodeRefund",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "b989d4a2-f62f-45c4-9643-12a0762bb44b",
+						"key": "Z-Connect API User-without-attribute-test",
+						"segregationKey": "Finance",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "5a556255-7ca3-4697-96cf-4eabb338c663",
+							"name": "Z-Connect API User-without-attribute-test",
+							"description": "Creating user role with attributes",
+							"category": "ZFinance",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "7209c228-f479-48a4-b9cf-cf22d3eec302",
+						"key": "New role with attributes",
+						"segregationKey": "Finance",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "5ca9c1b5-e1c2-404e-925b-e45ffe3b0712",
+							"name": "New role with attributes",
+							"description": "Z-Connect API User - Testing1",
+							"category": "ZFinance",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "f125b9ff-ea47-43b2-9f0c-34795f6491f7",
+						"key": "View Only",
+						"segregationKey": "Reporting",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "5e53f5c0-bfd6-49c5-9d6d-4a0ec1d9baa7",
+							"name": "View Only",
+							"description": "",
+							"category": "ZReporting",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "82717444-1a15-4347-a738-24e1fd1f93fb",
+									"name": "viewZReports",
+									"scope": "ZConnectBasic",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "fa5895d2-0fbc-4479-8d0a-468fabd33e14",
+						"key": "raman_test",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "63ce2873-7479-4bca-822d-db72867ad5de",
+							"name": "raman_test",
+							"description": "raman test IP ",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "15094af2-55d2-4c35-a22f-2649ad2edd5e",
+									"name": "workflow",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "92e4178f-2f18-40ac-be55-6017907648a0",
+									"name": "CustomObjectsDeleteAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b8cdc2ac-bc25-4dc9-be58-28633188b843",
+									"name": "ui",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "347647a8-ad0f-4612-a1d4-42cc20854092",
+									"name": "DataQueryUI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b812f099-e422-45ad-a4f5-543760802a24",
+									"name": "apiWrite",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c3acf8f3-ed60-412f-ae73-d79710f9948a",
+									"name": "WorkflowGlobalConstantsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "842480ac-ab01-4712-aa00-b6de5d9b1ed4",
+									"name": "AuditTrailAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "3bc44bbc-8f40-4514-8844-42ac9666c1f0",
+						"key": "API user defaults",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "68da68f3-a452-48d4-b1fa-cdadeda781ca",
+							"name": "API user defaults",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "c3acf8f3-ed60-412f-ae73-d79710f9948a",
+									"name": "WorkflowGlobalConstantsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "a4970f33-a9bb-41d9-a675-c121675bb29c",
+						"key": "Deployment Manager",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "8a90a2fd-8161-9ef5-0181-61ecb7fc1565",
+							"name": "Deployment Manager",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "92e4178f-2f18-40ac-be55-6017907648a0",
+									"name": "CustomObjectsDeleteAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b8cdc2ac-bc25-4dc9-be58-28633188b843",
+									"name": "ui",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "347647a8-ad0f-4612-a1d4-42cc20854092",
+									"name": "DataQueryUI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a220464a-a366-4be8-83fa-f258b19da5f4",
+									"name": "CustomObjectsEditAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "5202c673-b1c6-478a-bfaa-6bb69e50ad63",
+									"name": "CustomObjectsReadAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b812f099-e422-45ad-a4f5-543760802a24",
+									"name": "apiWrite",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "ce2d1ac3-c6b8-4981-9f96-c0dc2257dc7e",
+									"name": "EnableDeploymentManagerUIAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "15094af2-55d2-4c35-a22f-2649ad2edd5e",
+									"name": "workflow",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "44943888-74a0-4d77-b017-a3d269f4933e",
+									"name": "ConfigUIPageLayouts",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "9b667864-d5c5-45e0-a421-e87abd4ed52c",
+						"key": "Mock User Role",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "8a90e082-801e-4ab8-0180-1ef548260de7",
+							"name": "Mock User Role",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "03bb6ca9-1a4a-43b5-ac70-1563dba1f0b3",
+						"key": "test-user-role",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "8a90f508-83ea-88df-0183-ec77cc5136a0",
+							"name": "test-user-role",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "ce2d1ac3-c6b8-4981-9f96-c0dc2257dc7e",
+									"name": "EnableDeploymentManagerUIAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b812f099-e422-45ad-a4f5-543760802a24",
+									"name": "apiWrite",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b8cdc2ac-bc25-4dc9-be58-28633188b843",
+									"name": "ui",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "635b76e9-1a6a-4e63-b7d1-86c9c21d7c07",
+						"key": "Workflow",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "8a90f508-84ae-6d1f-0184-aee2905f07a8",
+							"name": "Workflow",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "15094af2-55d2-4c35-a22f-2649ad2edd5e",
+									"name": "workflow",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "b3d77dca-c39d-4165-9939-c7cf086837dc",
+						"key": "Refunds",
+						"segregationKey": "Payments",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "8a90f508-84ae-6d1f-0184-aee2fcf207a9",
+							"name": "Refunds",
+							"description": "",
+							"category": "ZPayments",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "64feaa97-474b-4975-8318-57f07822887b",
+									"name": "ChangeReasonCodeForRefund",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "af12ddc9-1bc4-4548-888d-5cb9acea766b",
+									"name": "refundExtIssue",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "529d0f86-b8cc-4630-9fea-e8adf2c84d35",
+									"name": "refundExtCancel",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "7b8293a9-6d9d-4a63-b6fd-a0c77e388254",
+									"name": "deleteRefund",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "46cde936-7b11-4fe9-862c-90e88eb68fae",
+									"name": "overrideAccountingCodeRefund",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "3cff62a5-9f84-48a0-8ed9-639e6f236944",
+									"name": "refundEleCancel",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "f2ae8731-e9c4-4496-a238-3ddd744b1f94",
+									"name": "refundEleIssue",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "580b86da-383e-45e7-8b2c-4c0884a77c1c",
+									"name": "overrideTransferredToAccountingRefund",
+									"scope": "Refunds",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "7cd62753-49c4-4e48-abee-e72cd02ce5f5",
+						"key": "New Role",
+						"segregationKey": "ZNewRole",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "8d451e9a-adb2-4fcf-8dd4-56308c8d03e7",
+							"name": "New Role",
+							"description": "Z-Connect API User - Testing",
+							"category": "ZNewRole",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "edb745eb-dc07-4058-8e16-1103aa9cb36d",
+						"key": "Basic Payments (Everyone not Finance)",
+						"segregationKey": "Payments",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "9a295287-b4fc-4e76-aeb7-f717137978fd",
+							"name": "Basic Payments (Everyone not Finance)",
+							"category": "ZPayments",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "c0bd06e2-b58a-49b1-9de1-3f0cfd7f2415",
+									"name": "transferPayment",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "f9ab49f3-52fe-4c32-bf58-91c53ed69e55",
+									"name": "applyPayment",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "9c0a1567-22e9-420e-8956-0d6a2cce0bcf",
+									"name": "unapplyPayment",
+									"scope": "Payments",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "d5d95dd4-a3d4-4520-871c-85d83b8033e6",
+						"key": "TestUserRole2",
+						"segregationKey": "Billing",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "9bc0ea37-a763-47d3-9e52-a0fc34e7a7d2",
+							"name": "TestUserRole2",
+							"description": "Zuora Billing ",
+							"category": "ZBilling",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "1ce2acad-f124-4983-ab33-e991d0483d1f",
+									"name": "FinanceView",
+									"scope": "Finance",
+									"activationLevel": "EntityAndUser"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "a2ea3927-307f-49bf-bcfc-4a9552712afa",
+						"key": "NewUserRole - Create test",
+						"segregationKey": "Finance",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "cf79176d-4825-4832-bc71-fd5793312136",
+							"name": "NewUserRole - Create test",
+							"description": "description",
+							"category": "ZFinance",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "3f372448-223a-4bd6-b715-894b837d4e57",
+									"name": "ReportingAccess",
+									"scope": "Default",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a40f4951-39e6-4280-aa54-d4b72760da9e",
+									"name": "AccountingPeriodDelete",
+									"scope": "AccountingPeriod",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "1ce2acad-f124-4983-ab33-e991d0483d1f",
+									"name": "FinanceView",
+									"scope": "Finance",
+									"activationLevel": "EntityAndUser"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "e6682b7f-0744-4915-81d4-a18cb5302cab",
+						"key": "new-acs",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "d130d5f5-6cd5-4e1e-b725-3b610e117a67",
+							"name": "new-acs",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c3acf8f3-ed60-412f-ae73-d79710f9948a",
+									"name": "WorkflowGlobalConstantsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2b5c3778-2a4e-4672-a904-3010400fa444",
+									"name": "createTestTenant",
+									"scope": "ZPlatform",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "b812f099-e422-45ad-a4f5-543760802a24",
+									"name": "apiWrite",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "be329876-1d3d-4b69-9926-1c78a21ce16a",
+						"key": "New Permissions",
+						"segregationKey": "Finance",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "d366e3c1-502e-4cd1-a446-343f4d7862bf",
+							"name": "New Permissions",
+							"description": "Z-Connect API User - Testing",
+							"category": "ZFinance",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "0c7d3249-579c-4fb5-afa6-88d318e873e0",
+						"key": "ip_restr",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "d9a1f781-f71b-48ea-ab2f-7f54ad5b4ef6",
+							"name": "ip_restr",
+							"description": "ip_restr",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c3acf8f3-ed60-412f-ae73-d79710f9948a",
+									"name": "WorkflowGlobalConstantsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b812f099-e422-45ad-a4f5-543760802a24",
+									"name": "apiWrite",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b8cdc2ac-bc25-4dc9-be58-28633188b843",
+									"name": "ui",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "508efc25-2cb8-480d-9fa4-d5c28d83be4c",
+						"key": "accounting-rules",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "dab4cedb-326f-49c3-9cb6-bcb39d4b5cd9",
+							"name": "accounting-rules",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "92e4178f-2f18-40ac-be55-6017907648a0",
+									"name": "CustomObjectsDeleteAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b8cdc2ac-bc25-4dc9-be58-28633188b843",
+									"name": "ui",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b812f099-e422-45ad-a4f5-543760802a24",
+									"name": "apiWrite",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "44943888-74a0-4d77-b017-a3d269f4933e",
+									"name": "ConfigUIPageLayouts",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "5202c673-b1c6-478a-bfaa-6bb69e50ad63",
+									"name": "CustomObjectsReadAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a220464a-a366-4be8-83fa-f258b19da5f4",
+									"name": "CustomObjectsEditAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "15094af2-55d2-4c35-a22f-2649ad2edd5e",
+									"name": "workflow",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "347647a8-ad0f-4612-a1d4-42cc20854092",
+									"name": "DataQueryUI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "842480ac-ab01-4712-aa00-b6de5d9b1ed4",
+									"name": "AuditTrailAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "4b3656ea-acf8-41a9-b9bb-18a58810f27d",
+						"key": "Config UI",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "daf3ead5-e309-473e-b778-5ccc21678fb2",
+							"name": "Config UI",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b8cdc2ac-bc25-4dc9-be58-28633188b843",
+									"name": "ui",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "5202c673-b1c6-478a-bfaa-6bb69e50ad63",
+									"name": "CustomObjectsReadAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "34530644-9ce4-481e-b12f-a9e8c5b58843",
+									"name": "TelemetryUIAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a220464a-a366-4be8-83fa-f258b19da5f4",
+									"name": "CustomObjectsEditAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "44943888-74a0-4d77-b017-a3d269f4933e",
+									"name": "ConfigUIPageLayouts",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b812f099-e422-45ad-a4f5-543760802a24",
+									"name": "apiWrite",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "92e4178f-2f18-40ac-be55-6017907648a0",
+									"name": "CustomObjectsDeleteAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "15094af2-55d2-4c35-a22f-2649ad2edd5e",
+									"name": "workflow",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "347647a8-ad0f-4612-a1d4-42cc20854092",
+									"name": "DataQueryUI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "6ab7eb78-f569-40bc-8a74-904931207ae7",
+						"key": "UI only",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "e7f746e3-677e-4ea4-ae6c-4db39938f201",
+							"name": "UI only",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "c3acf8f3-ed60-412f-ae73-d79710f9948a",
+									"name": "WorkflowGlobalConstantsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					},
+					{
+						"id": "17105c56-00ba-4b15-b79a-a71f5f5ffbce",
+						"key": "Nelson_without_Api_write",
+						"segregationKey": "Platform",
+						"componentType": "UserRoles",
+						"url": "user-management/roles/v2/?size=2000",
+						"pathPattern": null,
+						"method": "GET",
+						"payload": {
+							"id": "ee7acdea-bd1f-4460-9dd6-8ab3d8a251cb",
+							"name": "Nelson_without_Api_write",
+							"description": "",
+							"category": "ZPlatform",
+							"entityId": "2c92c8fb-6c1a-011a-016c-20c4c3ae1e7e",
+							"custom": true,
+							"attributes": [
+								{
+									"id": "ecf8c9f9-674f-4207-b6d1-b2cbc37d235a",
+									"name": "tenantProvisionOnly",
+									"scope": "ZPlatform",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "15094af2-55d2-4c35-a22f-2649ad2edd5e",
+									"name": "workflow",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "b8cdc2ac-bc25-4dc9-be58-28633188b843",
+									"name": "ui",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "ce2d1ac3-c6b8-4981-9f96-c0dc2257dc7e",
+									"name": "EnableDeploymentManagerUIAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "44943888-74a0-4d77-b017-a3d269f4933e",
+									"name": "ConfigUIPageLayouts",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "4f41d439-60c5-4269-817b-df85646d0c4a",
+									"name": "CentralSandboxRefresh",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2b5c3778-2a4e-4672-a904-3010400fa444",
+									"name": "createTestTenant",
+									"scope": "ZPlatform",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "347647a8-ad0f-4612-a1d4-42cc20854092",
+									"name": "DataQueryUI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "da898706-b4ea-4add-b250-6ff529e5bc33",
+									"name": "WorkflowRunAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "842480ac-ab01-4712-aa00-b6de5d9b1ed4",
+									"name": "AuditTrailAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a4949fa0-8a4c-11ea-bc55-0242ac130003",
+									"name": "CustomerTenantLogin",
+									"scope": "ZPlatform",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "92e4178f-2f18-40ac-be55-6017907648a0",
+									"name": "CustomObjectsDeleteAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "cecb6726-5e2a-4bbd-bba1-02190a295d68",
+									"name": "WorkflowManageGlobalSettingsAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "8729f9e6-2d80-4882-a591-e92154adc2ba",
+									"name": "createLiveTenant",
+									"scope": "ZPlatform",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "5202c673-b1c6-478a-bfaa-6bb69e50ad63",
+									"name": "CustomObjectsReadAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "0d8f235e-99cf-40ff-9ac3-caab0cbf73a2",
+									"name": "DataQueryAPI",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "a59ddab2-c496-480b-974d-697b95959cda",
+									"name": "ExtensionPlatformAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "EntityAndUser"
+								},
+								{
+									"id": "f81d9030-64cc-405a-ae83-a4b26985e15b",
+									"name": "TenantRegistryUIAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								},
+								{
+									"id": "2523f951-615c-4ec8-9594-e9013e570e61",
+									"name": "WorkflowManageAccess",
+									"scope": "ZPlatform",
+									"activationLevel": "User"
+								}
+							]
+						},
+						"result": "DONE",
+						"error": "-",
+						"templateId": "fb9e8c06-977e-41ce-b48f-dd17c8cbbad5"
+					}
+				],
+				"errors": [
+
+				]
+			}
+		],
+		"productCatalog": [
+
+		],
+		"notifications": [
+
+		],
+		"workflows": [
+
+		],
+		"customFields": [
+
+		],
+		"dataAccessControl": [
+
+		],
+		"customObjects": [
+
+		],
+		"reporting": [
+
+		],
+		"awsInfo": null
+	}
+}
