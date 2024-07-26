@@ -1,0 +1,408 @@
+{
+  "id" : "ec37082e-078f-41f0-a740-27b94776feaa",
+  "name" : "UserRolesWithWfrGit",
+  "description" : null,
+  "status" : "DONE",
+  "errors" : "",
+  "active" : true,
+  "tenantName" : "Ipaas4  (11519) (US-API-Sandbox-Staging)",
+  "entityName" : null,
+  "environment" : "US-API-Sandbox-Staging",
+  "createdBy" : "Aditya Ghosh",
+  "updatedBy" : "Aditya Ghosh",
+  "createdOn" : "2024-07-26T11:16:03.307Z",
+  "type" : "Others",
+  "repo" : false,
+  "connectorId" : null,
+  "lessThanMaxPC" : false,
+  "structurePresent" : true,
+  "repoDetails" : null,
+  "content" : {
+    "settings" : [ ],
+    "taxation" : [ ],
+    "billingDocuments" : [ ],
+    "userRoles" : [ {
+      "segregationKeys" : [ "Platform" ],
+      "originalPayload" : null,
+      "response" : [ {
+        "id" : "517ca7d9-6bc0-46dc-b3fe-2f777cbb1c71",
+        "key" : "Custom User",
+        "segregationKey" : "Platform",
+        "componentType" : "UserRoles",
+        "url" : "user-management/roles/v2/?size=2000",
+        "pathPattern" : null,
+        "method" : "GET",
+        "payload" : {
+          "id" : "8a90e5e4-90e4-227f-0190-eeba2e7e43eb",
+          "name" : "Custom User",
+          "description" : "",
+          "category" : "ZPlatform",
+          "entityId" : "8a90f508-88b2-3054-0188-b2f926235fdc",
+          "custom" : true,
+          "attributes" : [ {
+            "id" : "5202c673-b1c6-478a-bfaa-6bb69e50ad63",
+            "name" : "CustomObjectsReadAccess",
+            "scope" : "ZPlatform",
+            "activationLevel" : "User"
+          }, {
+            "id" : "ce2d1ac3-c6b8-4981-9f96-c0dc2257dc7e",
+            "name" : "EnableDeploymentManagerUIAccess",
+            "scope" : "ZPlatform",
+            "activationLevel" : "User"
+          }, {
+            "id" : "3564246c-0ad0-42b9-9b3e-0ccf42838284",
+            "name" : "EnableDataLoader",
+            "scope" : "ZPlatform",
+            "activationLevel" : "User"
+          }, {
+            "id" : "b8cdc2ac-bc25-4dc9-be58-28633188b843",
+            "name" : "ui",
+            "scope" : "ZPlatform",
+            "activationLevel" : "User"
+          }, {
+            "id" : "da898706-b4ea-4add-b250-6ff529e5bc33",
+            "name" : "WorkflowRunAccess",
+            "scope" : "ZPlatform",
+            "activationLevel" : "User"
+          } ]
+        },
+        "result" : "DONE",
+        "error" : "-",
+        "templateId" : "ec37082e-078f-41f0-a740-27b94776feaa"
+      }, {
+        "id" : "89d3fdd5-57d3-4cf9-b43f-e5a25dbe0983",
+        "key" : "api user",
+        "segregationKey" : "Platform",
+        "componentType" : "UserRoles",
+        "url" : "user-management/roles/v2/?size=2000",
+        "pathPattern" : null,
+        "method" : "GET",
+        "payload" : {
+          "id" : "8a90e5e4-8fd6-7cfb-018f-dcebe352059d",
+          "name" : "api user",
+          "description" : "",
+          "category" : "ZPlatform",
+          "entityId" : "8a90f508-88b2-3054-0188-b2f926235fdc",
+          "custom" : true,
+          "attributes" : [ {
+            "id" : "b8cdc2ac-bc25-4dc9-be58-28633188b843",
+            "name" : "ui",
+            "scope" : "ZPlatform",
+            "activationLevel" : "User"
+          }, {
+            "id" : "ce2d1ac3-c6b8-4981-9f96-c0dc2257dc7e",
+            "name" : "EnableDeploymentManagerUIAccess",
+            "scope" : "ZPlatform",
+            "activationLevel" : "User"
+          }, {
+            "id" : "60fbef18-eb15-47db-b8d9-4c675d0f89fa",
+            "name" : "MarketplaceView",
+            "scope" : "ZPlatform",
+            "activationLevel" : "User"
+          }, {
+            "id" : "b812f099-e422-45ad-a4f5-543760802a24",
+            "name" : "apiWrite",
+            "scope" : "ZPlatform",
+            "activationLevel" : "User"
+          } ]
+        },
+        "result" : "DONE",
+        "error" : "-",
+        "templateId" : "ec37082e-078f-41f0-a740-27b94776feaa"
+      } ],
+      "errors" : [ ]
+    } ],
+    "productCatalog" : [ ],
+    "notifications" : [ ],
+    "workflows" : [ {
+      "segregationKeys" : [ "QueryPaymentMethod" ],
+      "originalPayload" : {
+        "export" : {
+          "1155" : {
+            "QueryPaymentMethod_0.0.1" : {
+              "workflow_definition" : {
+                "name" : "QueryPaymentMethod",
+                "description" : "",
+                "category" : "Default",
+                "ui_page_roles" : [ ]
+              },
+              "workflow" : {
+                "id" : 1155,
+                "name" : "QueryPaymentMethod",
+                "description" : "",
+                "parameters" : {
+                  "fields" : [ ],
+                  "skipping_check" : "redis",
+                  "file_encryption" : "false",
+                  "show_run_prompt" : null,
+                  "callout_response" : "workflow instance",
+                  "secure_error_msgs" : "false"
+                },
+                "data" : { },
+                "type" : "Workflow::Setup",
+                "ondemand_trigger" : true,
+                "callout_trigger" : true,
+                "scheduled_trigger" : false,
+                "interval" : null,
+                "timezone" : null,
+                "status" : "Active",
+                "css" : {
+                  "top" : "-250px",
+                  "left" : "-1120px"
+                },
+                "notifications" : { },
+                "call_type" : "ASYNC",
+                "priority" : "Medium",
+                "delete_ttl" : 30,
+                "version" : "0.0.1",
+                "event_trigger" : false,
+                "zuora_org_id" : null,
+                "ui_pages" : { },
+                "solution_id" : null,
+                "extension_id" : null,
+                "zuora_org_ids" : [ ]
+              },
+              "tasks" : [ {
+                "id" : 3320,
+                "name" : "Find All Account",
+                "parameters" : {
+                  "fields" : {
+                    "Account" : {
+                      "Id" : "true",
+                      "Name" : "true"
+                    }
+                  },
+                  "placement" : "",
+                  "batch_size" : "2000",
+                  "where_clause" : "",
+                  "workflow_tags" : [ ],
+                  "strict_variables" : "true",
+                  "delete_payload_paths" : [ ]
+                },
+                "action_type" : "Query",
+                "object" : "Account",
+                "object_id" : null,
+                "call_type" : "SOAP",
+                "task_id" : null,
+                "css" : {
+                  "top" : "-250px",
+                  "left" : "-720px"
+                },
+                "concurrent_limit" : 9999999,
+                "tags" : [ ],
+                "priority" : "Medium",
+                "assignment" : [ ],
+                "zuora_org_id" : null,
+                "zuora_org_ids" : [ ]
+              }, {
+                "id" : 3321,
+                "name" : "Literate Account",
+                "parameters" : {
+                  "chunk_size" : "0",
+                  "workflow_tags" : [ ],
+                  "iteration_type" : "Default",
+                  "strict_variables" : "true",
+                  "delete_payload_paths" : [ ]
+                },
+                "action_type" : "Iterate",
+                "object" : "Account",
+                "object_id" : null,
+                "call_type" : "SOAP",
+                "task_id" : 3320,
+                "css" : {
+                  "top" : "-250px",
+                  "left" : "-350px"
+                },
+                "concurrent_limit" : 9999999,
+                "tags" : [ ],
+                "priority" : "Medium",
+                "assignment" : [ ],
+                "zuora_org_id" : null,
+                "zuora_org_ids" : [ ]
+              }, {
+                "id" : 3322,
+                "name" : "Query PaymentMethod",
+                "parameters" : {
+                  "fields" : {
+                    "PaymentMethod" : {
+                      "Name" : "true",
+                      "AccountId" : "true",
+                      "IdentityNumber" : "true",
+                      "CreditCardHolderName" : "true"
+                    }
+                  },
+                  "placement" : "",
+                  "batch_size" : "2000",
+                  "where_clause" : " AccountId = '{{Data.Account.Id}}'",
+                  "workflow_tags" : [ ],
+                  "strict_variables" : "true",
+                  "delete_payload_paths" : [ ]
+                },
+                "action_type" : "Query",
+                "object" : "PaymentMethod",
+                "object_id" : null,
+                "call_type" : "SOAP",
+                "task_id" : 3321,
+                "css" : {
+                  "top" : "-250px",
+                  "left" : "30px"
+                },
+                "concurrent_limit" : 9999999,
+                "tags" : [ ],
+                "priority" : "Medium",
+                "assignment" : [ ],
+                "zuora_org_id" : null,
+                "zuora_org_ids" : [ ]
+              }, {
+                "id" : 3323,
+                "name" : "Liquid PaymentMethod",
+                "parameters" : {
+                  "code" : "{% if Data.PaymentMethod[0] != nil and Data.PaymentMethod[0].AccountId == 'Test' %}\r\n{% assign test = 'test' %}\r\n{% else %}\r\n{% assign test = 'not test' %}\r\n{% endif %}",
+                  "workflow_tags" : [ ],
+                  "strict_variables" : "true",
+                  "delete_payload_paths" : [ ]
+                },
+                "action_type" : "Logic::Liquid",
+                "object" : null,
+                "object_id" : null,
+                "call_type" : "SOAP",
+                "task_id" : 3322,
+                "css" : {
+                  "top" : "-250px",
+                  "left" : "410px"
+                },
+                "concurrent_limit" : 9999999,
+                "tags" : [ ],
+                "priority" : "Medium",
+                "assignment" : [ ],
+                "zuora_org_id" : null,
+                "zuora_org_ids" : [ ]
+              }, {
+                "id" : 3324,
+                "name" : "test",
+                "parameters" : {
+                  "fields" : {
+                    "Invoice" : {
+                      "Amount" : "true",
+                      "AccountId" : "true"
+                    }
+                  },
+                  "placement" : "",
+                  "batch_size" : "2000",
+                  "where_clause" : "",
+                  "workflow_tags" : [ ],
+                  "strict_variables" : "true",
+                  "delete_payload_paths" : [ ]
+                },
+                "action_type" : "Query",
+                "object" : "Invoice",
+                "object_id" : null,
+                "call_type" : "SOAP",
+                "task_id" : 3323,
+                "css" : {
+                  "top" : "-120px",
+                  "left" : "810px"
+                },
+                "concurrent_limit" : 9999999,
+                "tags" : [ ],
+                "priority" : "Medium",
+                "assignment" : [ ],
+                "zuora_org_id" : null,
+                "zuora_org_ids" : [ ]
+              } ],
+              "linkages" : [ {
+                "source_workflow_id" : 1155,
+                "source_task_id" : null,
+                "target_task_id" : 3320,
+                "linkage_type" : "Start"
+              }, {
+                "source_workflow_id" : null,
+                "source_task_id" : 3320,
+                "target_task_id" : 3321,
+                "linkage_type" : "Success"
+              }, {
+                "source_workflow_id" : null,
+                "source_task_id" : 3321,
+                "target_task_id" : 3322,
+                "linkage_type" : "For Each"
+              }, {
+                "source_workflow_id" : null,
+                "source_task_id" : 3322,
+                "target_task_id" : 3323,
+                "linkage_type" : "Success"
+              }, {
+                "source_workflow_id" : null,
+                "source_task_id" : 3323,
+                "target_task_id" : 3324,
+                "linkage_type" : "Success"
+              } ]
+            }
+          }
+        },
+        "featureDisabled" : false
+      },
+      "response" : [ {
+        "id" : "6ab544e3-0709-4dfc-be70-6236062db95f",
+        "key" : "QueryPaymentMethod_0.0.1",
+        "segregationKey" : "QueryPaymentMethod",
+        "componentType" : "WorkFlows",
+        "url" : "1155",
+        "pathPattern" : null,
+        "method" : "GET",
+        "payload" : {
+          "id" : 1155,
+          "name" : "QueryPaymentMethod",
+          "description" : "",
+          "status" : "Active",
+          "ondemandTrigger" : true,
+          "calloutTrigger" : true,
+          "scheduledTrigger" : false,
+          "interval" : null,
+          "timezone" : null,
+          "createdAt" : "2024-07-04T05:32:38.413-07:00",
+          "updatedAt" : "2024-07-04T05:32:38.413-07:00",
+          "priority" : "Medium",
+          "active_version" : {
+            "id" : 1155,
+            "name" : "QueryPaymentMethod",
+            "definitionId" : 1155,
+            "definitionName" : "QueryPaymentMethod",
+            "description" : "",
+            "type" : "Workflow::Setup",
+            "version" : "0.0.1",
+            "ondemandTrigger" : true,
+            "calloutTrigger" : true,
+            "scheduledTrigger" : false,
+            "interval" : null,
+            "timezone" : null,
+            "createdAt" : "2024-07-04T05:32:38.413-07:00",
+            "updatedAt" : "2024-07-04T05:32:38.413-07:00",
+            "priority" : "Medium",
+            "status" : "Active",
+            "created_by" : {
+              "work_email" : "aghosh@zuora.com",
+              "created_at" : "2023-10-09T04:56:02.854-07:00",
+              "updated_at" : "2024-05-08T02:25:49.879-07:00"
+            },
+            "updated_by" : {
+              "work_email" : "N/A",
+              "created_at" : "N/A",
+              "updated_at" : "N/A"
+            }
+          },
+          "latest_inactive_versions" : [ ]
+        },
+        "result" : "DONE",
+        "error" : "-",
+        "templateId" : "ec37082e-078f-41f0-a740-27b94776feaa"
+      } ],
+      "errors" : [ ]
+    } ],
+    "customFields" : [ ],
+    "dataAccessControl" : [ ],
+    "customObjects" : [ ],
+    "reporting" : [ ],
+    "mediation" : [ ],
+    "awsInfo" : null
+  }
+}
